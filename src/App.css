@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+
+.logo{
+   font-family: "Great Vibes", "cursive";
+}
+
+.slick-dots  {
+  bottom: 25px!important;
+}
+.slick-dots li button:before{
+  font-size: 16px!important;
+}
+
+
+.main-slider .slick-dots{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-direction: column!important;
+    top: 50%!important;
+    transform: translateY(-50%)!important;
+    right: 4%!important;
+    width: 0px!important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: #096B68!important;
+}
+
