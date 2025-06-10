@@ -1,5 +1,5 @@
 import React from "react";
-import { CurrentDeals } from "../components/currentDeals";
+import { CurrentDeals } from "../components/CurrentDeals";
 import { NavigationBar } from "../components/NavigationBar";
 import ProductSlider from "../components/ProductSlider";
 import { ContentWrapper } from "../layouts/ContentWrapper";
