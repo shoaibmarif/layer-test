@@ -157,7 +157,7 @@ export const ProductPage = () => {
         "M",
         "L",
         "XL",
-        "XXl"
+        "XXL"
     ];
 
     return (
