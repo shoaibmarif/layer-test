@@ -140,7 +140,7 @@ export const ProductPage = () => {
     ];
 
     const [selectedColor, setSelectedColor] = React.useState("red");
-    const [selectedSize, setSelectedSize] = React.useState("4-6 Years");
+    const [selectedSize, setSelectedSize] = React.useState("XS");
     const [quantity, setQuantity] = React.useState(1);
     const inStock = true;
 
@@ -152,13 +152,12 @@ export const ProductPage = () => {
         { name: "gray", value: "gray", class: "bg-gray-300", ring: "ring-gray-400" }
     ];
     const sizes = [
-        "4-6 Years",
-        "6-8 Years",
-        "8-10 Years",
-        "10-12 Years",
-        "12-14 Years",
-        "14-16 Years",
-        "16-18 Years"
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXl"
     ];
 
     return (
